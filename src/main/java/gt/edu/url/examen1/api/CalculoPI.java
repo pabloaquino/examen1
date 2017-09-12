@@ -12,8 +12,8 @@ public class CalculoPI {
 	    if(k==0)
 	        return Pi(k);
 	    else {
-	        double resultado= calcularPi(k)+ calcularPi(k-1);
-	        return resultado;
+	        double resultado= (Pi(k))+(Pi(k-1));
+	        return (int)resultado;
 	    }
 
 	}
